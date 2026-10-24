@@ -1,0 +1,30 @@
+{
+  "threshold": 0.12,
+  "roc_auc": 0.8472060761063318,
+  "pr_auc": 0.6679103734090371,
+  "brier_score": 0.1350627856947237,
+  "precision_churn": 0.41916167664670656,
+  "recall_churn": 0.9358288770053476,
+  "f1_churn": 0.5789909015715468,
+  "accuracy": 0.63875088715401,
+  "true_negatives": 550,
+  "false_positives": 485,
+  "false_negatives": 24,
+  "true_positives": 350,
+  "model_cost": 31450.0,
+  "no_model_cost": 112200.0,
+  "cost_saving": 80750.0,
+  "false_positive_cost": 50.0,
+  "false_negative_cost": 300.0,
+  "best_cv_pr_auc": 0.6680978253139965,
+  "best_params": {
+    "classifier__learning_rate": "0.01620890700720353",
+    "classifier__max_depth": "3",
+    "classifier__max_features": "sqrt",
+    "classifier__min_samples_leaf": "9",
+    "classifier__min_samples_split": "7",
+    "classifier__n_estimators": "383",
+    "classifier__subsample": "0.9018360384495572",
+    "sampler": "passthrough"
+  }
+}
